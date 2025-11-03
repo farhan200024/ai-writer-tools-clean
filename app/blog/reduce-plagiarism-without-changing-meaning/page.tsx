@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {{
+export const metadata: Metadata = {
   title: "How to Reduce Plagiarism Without Changing Meaning",
   description: "Proven ways to make your writing original without losing context."
-}};
+};
 
-export default function Post() {{
+export default function Post() {
   return (
     <main className="prose max-w-none">
       <h1>How to Reduce Plagiarism Without Changing Meaning</h1>
@@ -29,4 +29,4 @@ export default function Post() {{
       <p><strong>Try our free tools:</strong> <a href="/paraphrase">Paraphraser</a> · <a href="/summarize">Summarizer</a> · <a href="/plagiarism">Plagiarism Checker</a> · <a href="/word-counter">Word Counter</a></p>
     </main>
   );
-}}
+}

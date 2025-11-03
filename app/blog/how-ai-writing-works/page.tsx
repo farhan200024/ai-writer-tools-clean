@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {{
+export const metadata: Metadata = {
   title: "How AI Writing Works: Behind the Scenes of Paraphrasing Tools",
   description: "Understand how AI tools rewrite and summarize text using natural language models."
-}};
+};
 
-export default function Post() {{
+export default function Post() {
   return (
     <main className="prose max-w-none">
       <h1>How AI Writing Works: Behind the Scenes of Paraphrasing Tools</h1>
@@ -24,4 +24,4 @@ export default function Post() {{
       <p><strong>Try our free tools:</strong> <a href="/paraphrase">Paraphraser</a> · <a href="/summarize">Summarizer</a> · <a href="/plagiarism">Plagiarism Checker</a> · <a href="/word-counter">Word Counter</a></p>
     </main>
   );
-}}
+}

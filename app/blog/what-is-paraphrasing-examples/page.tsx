@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {{
+export const metadata: Metadata = {
   title: "What is Paraphrasing? Simple Examples for Students",
   description: "Easy guide for students to paraphrase text effectively."
-}};
+};
 
-export default function Post() {{
+export default function Post() {
   return (
     <main className="prose max-w-none">
       <h1>What is Paraphrasing? Simple Examples for Students</h1>
@@ -26,4 +26,4 @@ export default function Post() {{
       <p><strong>Try our free tools:</strong> <a href="/paraphrase">Paraphraser</a> · <a href="/summarize">Summarizer</a> · <a href="/plagiarism">Plagiarism Checker</a> · <a href="/word-counter">Word Counter</a></p>
     </main>
   );
-}}
+}

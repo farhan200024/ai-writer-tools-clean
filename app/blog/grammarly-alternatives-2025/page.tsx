@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {{
+export const metadata: Metadata = {
   title: "5 Free Alternatives to Grammarly (2025 Update)",
   description: "Discover the best free grammar checkers for writers."
-}};
+};
 
-export default function Post() {{
+export default function Post() {
   return (
     <main className="prose max-w-none">
       <h1>5 Free Alternatives to Grammarly (2025 Update)</h1>
@@ -25,4 +25,4 @@ export default function Post() {{
       <p><strong>Try our free tools:</strong> <a href="/paraphrase">Paraphraser</a> · <a href="/summarize">Summarizer</a> · <a href="/plagiarism">Plagiarism Checker</a> · <a href="/word-counter">Word Counter</a></p>
     </main>
   );
-}}
+}

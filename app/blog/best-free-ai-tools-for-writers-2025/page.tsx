@@ -1,12 +1,12 @@
 
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {{
+export const metadata: Metadata = {
   title: "Best Free AI Tools for Writers (2025 List)",
   description: "Explore top AI tools that help writers improve content, grammar, and creativity."
-}};
+};
 
-export default function Post() {{
+export default function Post() {
   return (
     <main className="prose max-w-none">
       <h1>Best Free AI Tools for Writers (2025 List)</h1>
@@ -30,4 +30,4 @@ export default function Post() {{
       <p><strong>Try our free tools:</strong> <a href="/paraphrase">Paraphraser</a> · <a href="/summarize">Summarizer</a> · <a href="/plagiarism">Plagiarism Checker</a> · <a href="/word-counter">Word Counter</a></p>
     </main>
   );
-}}
+}
